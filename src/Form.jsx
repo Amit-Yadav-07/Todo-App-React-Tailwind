@@ -19,7 +19,7 @@ let Form = ({ addItem }) => {
     return (
         <form className="text-center w-[90%] mx-auto mb-3  flex justify-between" onSubmit={submitHandler}>
             <input type="text" className="border-black lg:w-[70%] mr-2 w-[70%] p-1" value={input} id="" onChange={(e) => { setInput(e.target.value) }} placeholder='Enter your Item' />
-            <button type="submit" className="bg-blue-500 lg:w-[25%] w-[30%] text-white p-1 rounded-sm">Add Items</button>
+            <button type="submit" className="bg-blue-400 lg:w-[25%] w-[30%] text-white p-1 rounded-sm">Add Items</button>
         </form>
     )
 }

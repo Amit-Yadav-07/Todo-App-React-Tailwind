@@ -10,7 +10,7 @@ let SingleItem = ({ item, removeItem, editItem }) => {
                 <input type="checkbox" onChange={() => editItem(item.id)} checked={item.completed} />
                 <strong style={{ textDecoration: item.completed && 'line-through' }} className="uppercase ml-3 tracking-widest	">{item.name}</strong>
             </div>
-            <button className="bg-red-500 p-1 text-1xl text-white rounded-sm" onClick={() => { removeItem(item.id) }}>Remove</button>
+            <button className="bg-red-400 p-1 text-1xl text-white rounded-sm" onClick={() => { removeItem(item.id) }}>Remove</button>
         </div>
     )
 }
