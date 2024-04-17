@@ -74,7 +74,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-[100vh] container bg-white mx-auto flex justify-center items-center">
+      <div className="min-h-[100vh] container bg-white mx-auto py-4 flex justify-center items-center">
         <div className="todo-container xl:w-[40%] md:w[50%] w-[80%] min-h-[300px] max-h-[auto]: bg-slate-100 shadow-md hover:shadow-lg">
           <h3 className="my-6 text-3xl text-center">Grocery Bug</h3>
           <ToastContainer />
